@@ -17,3 +17,7 @@ update:
 
 	# generate new bindata file
 	go generate
+
+
+test:
+	go test -v
